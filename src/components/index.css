@@ -1,0 +1,52 @@
+@import-normalize;
+:root {
+  --bg-body-color: #6584f5;
+  --bg-btn-color: #331aa5;
+  --bg-border-color: #aeafb4;
+  --bg-border-color-hover: #0725b6;
+  --bg-btn-color-hover: #3051f7;
+  --bg-section-color: #6584f5;
+  --text-color-primary: #031c68;
+  --text-btn-color: #afb1bb;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-body-color);
+  color: var(--text-color-primary);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.text {
+  text-align: center;
+}

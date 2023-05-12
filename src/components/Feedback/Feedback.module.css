@@ -1,0 +1,41 @@
+.Feedback {
+  width: 100%;
+  height: auto;
+  background-color: var(--bg-section-color);
+}
+
+.Title {
+  padding: 10px;
+  text-align: center;
+}
+
+.Btn__box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.Btn {
+  padding: 5px;
+  background-color: var(--bg-btn-color);
+  border: 1px solid var(--bg-border-color);
+  color: var(--text-btn-color);
+  border-radius: 5px;
+  transition: border 250ms var(--timing-function),
+    background-color 250ms var(--timing-function),
+    color 250ms var(--timing-function);
+}
+
+.Btn:hover,
+.Btn:focus {
+  border: 1px solid var(--bg-border-color-hover);
+  background-color: var(--bg-btn-color-hover);
+  color: var(--text-color-primary);
+}
+
+.Resultat__box {
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
